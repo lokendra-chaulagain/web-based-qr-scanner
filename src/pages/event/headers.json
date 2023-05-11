@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Types"
+    },
+    {
+        "id": 2,
+        "title": "Country"
+    },
+    {
+        "id": 3,
+        "title": "Description"
+    },
+    {
+        "id": 4,
+        "title": "Time"
+    },
+    {
+        "id": 5,
+        "title": "Location"
+    },
+    {
+        "id": 6,
+        "title": "Status"
+    },
+    {
+        "id": 7,
+        "title": "Actions"
+    }
+]
