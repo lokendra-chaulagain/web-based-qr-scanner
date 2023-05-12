@@ -25,7 +25,7 @@ export default function QRScanner() {
   console.log(visible);
 
   return (
-    <div style={{height:"90vh"}} className="flex items-center justify-center" >
+    <div style={{height:"90vh"}} className="flex flex-col items-center justify-center" >
       <video
         ref={videoRef}
         id="video"
