@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import {  Suspense } from "react";
 import QRScanner from "../components/user/QRScanner";
 // import BarcodeScanner from "../components/user/BarcodeScanner";
 // const Features = lazy(() => import("../components/user/Features"));
