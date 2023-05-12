@@ -1,9 +1,9 @@
-import { Suspense } from "react";
+// import { Suspense } from "react";
 import { Toaster } from "react-hot-toast";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "../../pages/Contact";
 import Home from "../../pages/Home";
-import Footer from "../user/footer/Footer";
+// import Footer from "../user/footer/Footer";
 import Header from "../user/Header";
 
 export default function UserLayout() {
@@ -23,9 +23,9 @@ export default function UserLayout() {
           />
         </Routes>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        {/* <Suspense fallback={<div>Loading...</div>}>
           <Footer />
-        </Suspense>
+        </Suspense> */}
         <Toaster />
       </BrowserRouter>
     </div>
